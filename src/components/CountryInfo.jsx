@@ -44,7 +44,7 @@ const CountryInfo = () => {
             <img
               src={country.flags.png}
               alt="image"
-              className="w-[450px] h-[200px] object-cover border"
+              className="lg:w-[400px] lg:h-[200px] object-cover border"
             />
           </div>
 

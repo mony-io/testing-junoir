@@ -69,7 +69,7 @@ function AllCountires() {
 
   return (
     <div>
-      <div className="flex items-center justify-between px-9">
+      <div className="flex items-center justify-between px-9 md:flex-row flex-col">
         <SearchCountry onSearch={getCountryByName} />
         <Sorting onSelect={getCountryByRegion} />
       </div>
